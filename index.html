@@ -3,12 +3,14 @@
   <style>
     p {
       font-family: "Comic Sans MS", cursive, sans-serif;
+	  text-align: center;
     }
 	h1, h2 {
 	  font-family: "Papyrus", Fantasy;
+	  text-align: center;
 	}
     body{
-      -webkit-animation: colorchange 5s linear infinite;
+      -webkit-animation: colorchange 5s linear infinite, spinall 2s linear infinite;
 	}
 	img{
 	  -webkit-animation: spin 2s linear infinite;
@@ -32,11 +34,15 @@
 	  50% {-webkit-filter:invert(0);}
       75% {-webkit-filter:invert(100);}
       100%{-webkit-filter:invert(0);}	
-	  100%{-webkit-transform: rotate(360deg);}
+	  
 	}
 	    @-webkit-keyframes spin{
 	  100%{-webkit-transform: rotate(360deg);}
 	}
+	@-webkit-keyframes spinall{
+	100%{-webkit-transform: rotate(360deg);}
+	}
+	
   </style>
   </head>
   <body>
