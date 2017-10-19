@@ -1,0 +1,47 @@
+﻿Overall Look and Feel of Upsurge
+===========================
+
+
+The overall look and feel should be esthetic and get the user excited for the company. We will avoid 3d buttons and shadows and try to keep the website 2d. The website should be flat with pops of color.
+
+
+Colors
+=====
+
+
+For Upsurge, colors are exciting and to get the users they are very green based colors a green color it is also calming our color swatches are:
+
+
+-#006200
+-#1A9F65
+-#65D576
+-#494949
+-#FFFFFF
+
+
+Iconography
+=========
+
+
+We will make sure that we are using icons that have a “flat” design, which will be continues throughout the whole thing.
+
+
+Typography
+=========
+
+
+We will be using Roboto and Arial font from Google Fonts.
+
+
+Links
+====
+
+
+We will try and avoid hyperlinks but if hyperlinks are used they will not be underlined and should change colors when hovering over them.
+
+
+Buttons
+======
+
+
+Buttons will be flat and if you hover over the button it will darken in color, the colors will be chosen from the outlined colors above.
