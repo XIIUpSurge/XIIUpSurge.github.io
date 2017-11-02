@@ -15,3 +15,13 @@ Product name: UpSurge
 Description: A website where artists can come together to collaborate on music, host their music for marketing, and join up with businesses to perform at shows.
 
 
+TODO:
+Remove whitespace
+Toolbar scrolls with page
+Finish Features
+Finish Pricing
+Finish The Team
+Finish Contact
+Various troubleshooting
+Animations
+Prepare presentation
