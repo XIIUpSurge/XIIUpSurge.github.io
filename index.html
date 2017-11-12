@@ -29,7 +29,7 @@
             
             text-align: left;
             color: white;
-            padding-left: 30%;
+			margin-left: 19.5%;
             padding-bottom: 8%;
             font-size: 20px
             
@@ -39,8 +39,11 @@
             
             background-color: #333;
             overflow: hidden;
+			position: fixed;
+			top: 0;
+			left: 0;
             width: 100%;
-            
+            z-index: 1;
             
         }
         
@@ -63,16 +66,22 @@
             
         }
         
-        .topnav a.active {
+        .topnav a:active {
             
-            background-color: #4CAF50;
-            color: white
-            
+			background-color: #4CAF50;
+            color: white;
+			
         }
-        
+        a.anchor {
+			display: block;
+			position: relative;
+			top: -27px;
+			visibility: hidden;
+		}
         #upSurgeNav{
             
             float: left;
+			
             
         }
         
@@ -108,7 +117,6 @@
             margin: 5%;
             
         }
-    
     </style>
 
     
@@ -130,10 +138,9 @@
                     <a href="#">Contact</a>
                     <a href="#">The Team</a>
                     <a href="#">Pricing</a>
-                    <a href="#">Features</a>
+                    <a href="#features">Features</a>
                     <a href="#">Home</a>
                     <a id="upSurgeNav" href="#"><b>UpSurge</b></a>
-            
             </div>
         
         </div>
@@ -151,9 +158,10 @@
                 <h1 id="introText">Begin the climb, together</h1>
         
               
-        
-                <p id="introParagraph"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br>the industry's standard dummy text ever since the 1500s, when an unknown printer <br>took a galley of type and scrambled it to make a type specimen book. It has survived not <br> only five centuries, but also the leap into electronic typesetting, remaining essentially <br>unchanged.</p>
-                
+				<center>
+					<p id="introParagraph"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br>the industry's standard dummy text ever since the 1500s, when an unknown printer <br>took a galley of type and scrambled it to make a type specimen book. It has survived not <br> only five centuries, but also the leap into electronic typesetting, remaining essentially <br>unchanged.</p>
+                </center>
+				
             </div>
         
         </div>
@@ -208,7 +216,7 @@
             
             <div class="col-md-4" style="background-color: white">
                 
-                <img src="musicartists.png" alt="" style="margin: 5%">
+                <img src="musicartists.png" alt="" style = "margin-top: 12.5%" height=400px width=400px>
                 
             </div>
             
@@ -230,9 +238,9 @@
                     <div class="row">
                     
                         <div class="col-md-6">
-                
-                            <h1 id="featuresHeadingA">Artists can...</h1>
-                            
+							<a class="anchor" id="features"></a>
+								<h1 id="featuresHeadingA">Artists can...</h1>
+           
                             <img src="arrow.png" alt="" style="float: right; margin-right: 10%; margin-top: 1%">
                 
                         </div>
@@ -279,11 +287,11 @@
                             
                             <ul style="direction: rtl">
                             
-                                <li style="text-align: right">Discover artists to perform at their venues</li>
-                                <li style="text-align: right">Advertise </li>
-                                <li style="text-align: right"></li>
-                                <li style="text-align: right">Get gigs at nearby venues</li>
-                                <li style="text-align: right">Post samples of their music for other artists</li>
+                                <li style="text-align: right">Discover new artists</li>
+                                <li style="text-align: right">Advertise their business</li>
+                                <li style="text-align: right">Request artists for certain genres of music</li>
+                                <li style="text-align: right">Book performers at their venue</li>
+                                <li style="text-align: right">Post examples of previous artists</li>
                             
                             </ul>
                 
